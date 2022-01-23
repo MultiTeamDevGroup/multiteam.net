@@ -7,7 +7,7 @@
             <!-- Website Logo -->
             <div>
               <NuxtLink to="/" class="flex items-center py-4 px-2">
-                <img src="assets/logo.png" alt="Logo" class="h-10 mr-2" />
+                <img src="assets/logo.svg" alt="Logo" class="h-12 mr-2" />
               </NuxtLink>
             </div>
             <!-- Primary Navbar items -->
