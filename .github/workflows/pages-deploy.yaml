@@ -10,7 +10,6 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         node: [14]
-
     steps:
       - name: Checkout
         uses: actions/checkout@master
@@ -26,8 +25,12 @@ jobs:
       - name: Generate
         run: npm run generate
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_KEY }}"
+          projectId: multiteam-c8300
+          channelId: live
+
+        
