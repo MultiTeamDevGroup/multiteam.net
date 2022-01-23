@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-icon_tab_premium">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="icon_tab_premium" clip-path="url(#clip-icon_tab_premium)">
+    <g id="Ellipse_7398" data-name="Ellipse 7398" fill="#e1e1e1" stroke="#141414" stroke-width="100">
+      <circle cx="500" cy="500" r="500" stroke="none"/>
+      <circle cx="500" cy="500" r="450" fill="none"/>
+    </g>
+    <path id="Path_8" data-name="Path 8" d="M-1874-2622l194,194Zm0,0-195,194Zm0-226v0Z" transform="translate(2374.5 3133.5)" fill="none" stroke="#141414" stroke-width="50"/>
+    <line id="Line_5" data-name="Line 5" y1="270" transform="translate(500.5 269.5)" fill="none" stroke="#141414" stroke-width="50"/>
+    <circle id="Ellipse_7400" data-name="Ellipse 7400" cx="92.5" cy="92.5" r="92.5" transform="translate(606 617)" fill="#135bd1"/>
+    <circle id="Ellipse_7403" data-name="Ellipse 7403" cx="92.5" cy="92.5" r="92.5" transform="translate(408 153)" fill="#141414"/>
+    <circle id="Ellipse_7402" data-name="Ellipse 7402" cx="92.5" cy="92.5" r="92.5" transform="translate(213 617)" fill="#78d113"/>
+  </g>
+</svg>

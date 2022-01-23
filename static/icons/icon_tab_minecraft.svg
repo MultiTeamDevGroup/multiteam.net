@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-icon_tab_minecraft">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="icon_tab_minecraft" clip-path="url(#clip-icon_tab_minecraft)">
+    <path id="Path_5" data-name="Path 5" d="M1773.752,3083.791l-407.568,188.188,30.152,534.413,415.885-263.048V3136.816Z" transform="translate(-920 -2848)" fill="#135bd1"/>
+    <path id="Path_4" data-name="Path 4" d="M1419.977,3140.975v636.3l-385.461-239.134V3122.26l236.015-109.17Z" transform="translate(-920 -2848)" fill="#e1e1e1"/>
+    <path id="Path_3" data-name="Path 3" d="M1420,3328.248l-335.406-178.389L1420,2878.409l335.359,271.154Z" transform="translate(-920 -2843)" fill="#78d113"/>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(283.737 -124.922) rotate(30)" fill="none">
+      <path d="M750,0l250,433.5L750,867H250L0,433.5,250,0Z" stroke="none"/>
+      <path d="M 307.7673950195313 100 L 115.4375 433.5 L 307.7673950195313 767 L 692.232666015625 767 L 884.5625 433.5 L 692.232666015625 100 L 307.7673950195313 100 M 250 0 L 750 0 L 1000 433.5 L 750 867 L 250 867 L 0 433.5 L 250 0 Z" stroke="none" fill="#141414"/>
+    </g>
+  </g>
+</svg>
