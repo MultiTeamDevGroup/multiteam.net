@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-icon_tab_account">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="icon_tab_account" clip-path="url(#clip-icon_tab_account)">
+    <g id="Ellipse_7404" data-name="Ellipse 7404" fill="#e1e1e1" stroke="#141414" stroke-width="100">
+      <circle cx="500" cy="500" r="500" stroke="none"/>
+      <circle cx="500" cy="500" r="450" fill="none"/>
+    </g>
+    <ellipse id="Ellipse_7406" data-name="Ellipse 7406" cx="295" cy="235" rx="295" ry="235" transform="translate(205 500)" fill="#78d113"/>
+    <circle id="Ellipse_7405" data-name="Ellipse 7405" cx="160" cy="160" r="160" transform="translate(340 180)" fill="#135bd1"/>
+    <g id="Ellipse_7407" data-name="Ellipse 7407" fill="none" stroke="#141414" stroke-width="100">
+      <circle cx="500" cy="500" r="500" stroke="none"/>
+      <circle cx="500" cy="500" r="450" fill="none"/>
+    </g>
+  </g>
+</svg>
