@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fmultiteam.net\u002F_nuxt\u002Fstatic\u002F1642969275",layout:"default",error:a,serverRendered:true,routePath:"\u002Fgames",config:{_app:{basePath:"\u002Fmultiteam.net\u002F",assetsPath:"\u002Fmultiteam.net\u002F_nuxt\u002F",cdnURL:a}}}}(null));
