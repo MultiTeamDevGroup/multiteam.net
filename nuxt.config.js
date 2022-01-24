@@ -46,17 +46,33 @@ export default {
   firebase: {
     // options
     config: {
-      apiKey: "AIzaSyDhjZEv-cPgDn9kDlb6fcN7V0eOceWCR5k",
-      authDomain: "zal1000.firebaseapp.com",
-      databaseURL: "https://zal1000.firebaseio.com",
-      projectId: "zal1000",
-      storageBucket: "zal1000.appspot.com",
-      messagingSenderId: "512279358183",
-      appId: "1:512279358183:web:11242b00eb848c11541042",
-      measurementId: "G-EFEE0E8QT7"
+      apiKey: "AIzaSyDSOiEkWcX2LQTviXgpLmtY5oYn1FYa0O0",
+      authDomain: "multiteam-c8300.firebaseapp.com",
+      projectId: "multiteam-c8300",
+      storageBucket: "multiteam-c8300.appspot.com",
+      messagingSenderId: "289949024452",
+      appId: "1:289949024452:web:b36ce76e7de30c37e84991",
+      measurementId: "G-4VJQ6VWWKL"
     },
     services: {
-      firestore: true
+      firestore: true,
+      auth: {
+        ssr: false, 
+      },
+      analytics: {
+        collectionEnabled: process.env.NODE_ENV !== 'development'
+      },
+      performance: process.env.NODE_ENV !== 'development',
+      messaging: {
+        createServiceWorker: true,
+        actions: [
+          {
+            action: 'randomName',
+            url: 'randomUrl'
+          }
+        ],
+        fcmPublicVapidKey: 'BMDdhtw3TO9hMBBNiy87azPCdJyS9tDbgpog4DhoC0wIyeB_p3-tt8D-0A1JVH_-JHkJwxXpUgwWCtoW_VIsd3c' // OPTIONAL : Sets vapid key for FCM after initialization
+      },
     }
   },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
