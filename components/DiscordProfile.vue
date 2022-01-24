@@ -5,7 +5,7 @@ export default Vue.extend({
     props: ['id'],
     methods: {
         async fetchUser(id: string) {
-            const ref =  this.$fire.firestore.cokllection('dcusers').doc(id)
+            const ref =  this.$fire.firestore.collection('dcusers').doc(id)
         }
     }
 })
