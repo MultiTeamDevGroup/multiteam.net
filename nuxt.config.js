@@ -63,6 +63,7 @@ export default {
         collectionEnabled: process.env.NODE_ENV !== 'development'
       },
       performance: process.env.NODE_ENV !== 'development',
+      /*
       messaging: {
         createServiceWorker: true,
         actions: [
@@ -71,8 +72,9 @@ export default {
             url: 'randomUrl'
           }
         ],
-        fcmPublicVapidKey: 'BMDdhtw3TO9hMBBNiy87azPCdJyS9tDbgpog4DhoC0wIyeB_p3-tt8D-0A1JVH_-JHkJwxXpUgwWCtoW_VIsd3c' // OPTIONAL : Sets vapid key for FCM after initialization
+        fcmPublicVapidKey: 'BMDdhtw3TO9hMBBNiy87azPCdJyS9tDbgpog4DhoC0wIyeB_p3-tt8D-0A1JVH_-JHkJwxXpUgwWCtoW_VIsd3c' 
       },
+      */
     }
   },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
