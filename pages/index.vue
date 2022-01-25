@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <div>
+    <DiscordProfile id="423925286350880779" />
+  </div>
 </template>
 
 <script lang="ts">
