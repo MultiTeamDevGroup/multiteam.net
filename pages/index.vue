@@ -1,6 +1,8 @@
 <template>
   <div>
-    <DiscordProfile id="423925286350880779" />
+    <no-ssr>
+      <DiscordProfile id="423925286350880779" />
+    </no-ssr>
   </div>
 </template>
 
@@ -8,6 +10,9 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'IndexPage'
+  name: 'IndexPage',
+  async created() {
+    const ref = this.$fire.firestore.collection("users")
+  }
 })
 </script>
